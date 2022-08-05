@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Counter from "./Component/Counter";
+import PostList from "./Component/PostList";
+// import Counter from "./Component/Counter";
 
 function App() {
   return (
     <div>
-      <Counter />
+      {/* <Counter /> */}
+      <PostList/>
     </div>
   );
 }
